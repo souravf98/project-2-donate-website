@@ -7,26 +7,30 @@
 :root {
   --Btn: #ff5959;
   --P-Color: #707070;
-  --Open-Sans: "Inter", sans-serif;
+  --Inter: "Inter", sans-serif;
 }
 
 /* reset Info */
 
 h1 {
   font-size: 65px;
-  font-family: var(--Open-Sans);
+  font-family: var(--Inter);
 }
 h2 {
   font-size: 45px;
-  font-family: var(--Open-Sans);
+  font-family: var(--Inter);
 }
 h3 {
   font-size: 30px;
-  font-family: var(--Open-Sans);
+  font-family: var(--Inter);
+}
+h4{
+  font-size: 24px;
+  font-family: var(--Inter);
 }
 p {
   font-size: 18px;
-  font-family: var(--Open-Sans);
+  font-family: var(--Inter);
 }
 .container {
   max-width: 1200px;
@@ -126,3 +130,68 @@ header {
   color: var(--P-Color);
 }
 /* Donate Today Section End  */
+
+
+
+
+/* Our Donate Plan Section Start */
+.titel-text {
+  text-align: center;
+}
+.titel-text h2 {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.titel-text p {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--P-Color);
+}
+
+.plan-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+/* card 1 css */
+.card-1{
+  background-color: #CBDDDF;
+  padding: 60px 24px;
+  border-radius: 5px;
+}
+.card-1 img{
+  margin-bottom: 30px;
+}
+.card-1 h4{
+  margin-bottom: 16px;
+}
+/* card 2 css */
+.card-2{
+  background-color: #FFEBEB;
+  padding: 60px 24px;
+  border-radius: 5px;
+}
+.card-2 img{
+  margin-bottom: 30px;
+}
+.card-2 h4{
+  margin-bottom: 16px;
+}
+
+/* card 3 css */
+.card-3{
+  background-color: #FFF4D6;
+  padding: 60px 24px;
+  border-radius: 5px;
+}
+.card-3 img{
+  margin-bottom: 30px;
+}
+.card-3 h4{
+  margin-bottom: 16px;
+}
+/* Our Donate Plan Section End */
