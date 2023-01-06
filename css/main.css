@@ -195,3 +195,41 @@ header {
   margin-bottom: 16px;
 }
 /* Our Donate Plan Section End */
+
+
+/* Blog Section Start */
+.blog-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 84px;
+  margin-bottom: 100px;
+}
+.blog-text{
+  width: 494px;
+  height: 374px;
+}
+.blog-text h2{
+  margin-bottom: 20px;
+}
+.blog-text p{
+  margin-bottom: 20px;
+}
+.blog-cover img{
+  width: 456px;
+  height: 477px;
+  border-radius: 5px;
+}
+
+.blog-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 84px;
+}
+
+
+
+
+
+/* Blog Section End */
