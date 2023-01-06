@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Btn: #ff5959;
+  --P-Color: #707070;
+  --Open-Sans: "Inter", sans-serif;
+}
+
+/* reset Info */
+
+h1 {
+  font-size: 65px;
+  font-family: var(--Open-Sans);
+}
+h2 {
+  font-size: 45px;
+  font-family: var(--Open-Sans);
+}
+h3 {
+  font-size: 30px;
+  font-family: var(--Open-Sans);
+}
+p {
+  font-size: 18px;
+  font-family: var(--Open-Sans);
+}
+
+section {
+  margin: 130px auto;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Header Section */
+header {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(../images/header-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-text {
+  text-align: center;
+}
+.banner-text h1 {
+  font-weight: 700;
+  font-size: 65px;
+  color: white;
+}
+.banner-text p {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin: 20px 0;
+}
+.banner-text button {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--Btn);
+  color: white;
+}
+
+/* Donate Today Section  */
+
+.titel-text {
+  text-align: center;
+}
+.titel-text h2 {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.titel-text p {
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--P-Color);
+}
+.number-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+.number-box .box-2{
+    background-color: #FFEEEE;
+    border: 2px solid var(--Btn);
+    padding: 44px 24px;
+    border-radius: 5px;
+}
+.number-box .box{
+    background-color: #FAFAFA;
+    border: 2px solid var(--P-Color);
+    padding: 44px 24px;
+    border-radius: 5px;
+}
+
